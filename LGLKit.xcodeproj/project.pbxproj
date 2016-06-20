@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70EE57BA48F55137EE4E88EC /* libPods-LGLKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A84B948E29521853CEF74BED /* libPods-LGLKit.a */; };
+		7E8A69B31D17DE0100C333A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A69B21D17DE0100C333A3 /* main.m */; };
+		7E8A69B61D17DE0100C333A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A69B51D17DE0100C333A3 /* AppDelegate.m */; };
+		7E8A69B91D17DE0100C333A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A69B81D17DE0100C333A3 /* ViewController.m */; };
+		7E8A69BC1D17DE0100C333A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8A69BA1D17DE0100C333A3 /* Main.storyboard */; };
+		7E8A69BE1D17DE0100C333A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8A69BD1D17DE0100C333A3 /* Assets.xcassets */; };
+		7E8A69C11D17DE0100C333A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8A69BF1D17DE0100C333A3 /* LaunchScreen.storyboard */; };
+		7E8A69CC1D17DE0100C333A3 /* LGLKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A69CB1D17DE0100C333A3 /* LGLKitTests.m */; };
+		7E8A69D91D17E48D00C333A3 /* LGLBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A69D81D17E48D00C333A3 /* LGLBanner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E8A69C81D17DE0100C333A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E8A69A61D17DE0100C333A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8A69AD1D17DE0100C333A3;
+			remoteInfo = LGLKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AED444E4E2CCDC848008886 /* Pods-LGLKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGLKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGLKit/Pods-LGLKit.debug.xcconfig"; sourceTree = "<group>"; };
+		7E8A69AE1D17DE0100C333A3 /* LGLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8A69B21D17DE0100C333A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E8A69B41D17DE0100C333A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E8A69B51D17DE0100C333A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E8A69B71D17DE0100C333A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E8A69B81D17DE0100C333A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E8A69BB1D17DE0100C333A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E8A69BD1D17DE0100C333A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E8A69C01D17DE0100C333A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E8A69C21D17DE0100C333A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8A69C71D17DE0100C333A3 /* LGLKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGLKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8A69CB1D17DE0100C333A3 /* LGLKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLKitTests.m; sourceTree = "<group>"; };
+		7E8A69CD1D17DE0100C333A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8A69D71D17E48D00C333A3 /* LGLBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLBanner.h; sourceTree = "<group>"; };
+		7E8A69D81D17E48D00C333A3 /* LGLBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLBanner.m; sourceTree = "<group>"; };
+		8CFA4A79517E9033FE0F4C75 /* Pods-LGLKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGLKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGLKit/Pods-LGLKit.release.xcconfig"; sourceTree = "<group>"; };
+		A84B948E29521853CEF74BED /* libPods-LGLKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGLKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E8A69AB1D17DE0100C333A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EE57BA48F55137EE4E88EC /* libPods-LGLKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8A69C41D17DE0100C333A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66BE0B402DD84CCDC4C33D4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A84B948E29521853CEF74BED /* libPods-LGLKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E8A69A51D17DE0100C333A3 = {
+			isa = PBXGroup;
+			children = (
+				7E8A69B01D17DE0100C333A3 /* LGLKit */,
+				7E8A69CA1D17DE0100C333A3 /* LGLKitTests */,
+				7E8A69AF1D17DE0100C333A3 /* Products */,
+				F219755D36D43CAD62BA7CDA /* Pods */,
+				66BE0B402DD84CCDC4C33D4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E8A69AF1D17DE0100C333A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A69AE1D17DE0100C333A3 /* LGLKit.app */,
+				7E8A69C71D17DE0100C333A3 /* LGLKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E8A69B01D17DE0100C333A3 /* LGLKit */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A69B41D17DE0100C333A3 /* AppDelegate.h */,
+				7E8A69B51D17DE0100C333A3 /* AppDelegate.m */,
+				7E8A69D61D17DE0800C333A3 /* LGLKit */,
+				7E8A69B71D17DE0100C333A3 /* ViewController.h */,
+				7E8A69B81D17DE0100C333A3 /* ViewController.m */,
+				7E8A69BA1D17DE0100C333A3 /* Main.storyboard */,
+				7E8A69BD1D17DE0100C333A3 /* Assets.xcassets */,
+				7E8A69BF1D17DE0100C333A3 /* LaunchScreen.storyboard */,
+				7E8A69C21D17DE0100C333A3 /* Info.plist */,
+				7E8A69B11D17DE0100C333A3 /* Supporting Files */,
+			);
+			path = LGLKit;
+			sourceTree = "<group>";
+		};
+		7E8A69B11D17DE0100C333A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A69B21D17DE0100C333A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E8A69CA1D17DE0100C333A3 /* LGLKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A69CB1D17DE0100C333A3 /* LGLKitTests.m */,
+				7E8A69CD1D17DE0100C333A3 /* Info.plist */,
+			);
+			path = LGLKitTests;
+			sourceTree = "<group>";
+		};
+		7E8A69D61D17DE0800C333A3 /* LGLKit */ = {
+			isa = PBXGroup;
+			children = (
+				7E8A69D71D17E48D00C333A3 /* LGLBanner.h */,
+				7E8A69D81D17E48D00C333A3 /* LGLBanner.m */,
+			);
+			name = LGLKit;
+			sourceTree = "<group>";
+		};
+		F219755D36D43CAD62BA7CDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AED444E4E2CCDC848008886 /* Pods-LGLKit.debug.xcconfig */,
+				8CFA4A79517E9033FE0F4C75 /* Pods-LGLKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E8A69AD1D17DE0100C333A3 /* LGLKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8A69D01D17DE0100C333A3 /* Build configuration list for PBXNativeTarget "LGLKit" */;
+			buildPhases = (
+				CE4595E41106868B2BCBB7E0 /* 📦 Check Pods Manifest.lock */,
+				7E8A69AA1D17DE0100C333A3 /* Sources */,
+				7E8A69AB1D17DE0100C333A3 /* Frameworks */,
+				7E8A69AC1D17DE0100C333A3 /* Resources */,
+				6365CF049F1B19F306F610C7 /* 📦 Embed Pods Frameworks */,
+				483AD328AA94524E9E5C5A28 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGLKit;
+			productName = LGLKit;
+			productReference = 7E8A69AE1D17DE0100C333A3 /* LGLKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E8A69C61D17DE0100C333A3 /* LGLKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8A69D31D17DE0100C333A3 /* Build configuration list for PBXNativeTarget "LGLKitTests" */;
+			buildPhases = (
+				7E8A69C31D17DE0100C333A3 /* Sources */,
+				7E8A69C41D17DE0100C333A3 /* Frameworks */,
+				7E8A69C51D17DE0100C333A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E8A69C91D17DE0100C333A3 /* PBXTargetDependency */,
+			);
+			name = LGLKitTests;
+			productName = LGLKitTests;
+			productReference = 7E8A69C71D17DE0100C333A3 /* LGLKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E8A69A61D17DE0100C333A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = luoguilin;
+				TargetAttributes = {
+					7E8A69AD1D17DE0100C333A3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7E8A69C61D17DE0100C333A3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7E8A69AD1D17DE0100C333A3;
+					};
+				};
+			};
+			buildConfigurationList = 7E8A69A91D17DE0100C333A3 /* Build configuration list for PBXProject "LGLKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E8A69A51D17DE0100C333A3;
+			productRefGroup = 7E8A69AF1D17DE0100C333A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E8A69AD1D17DE0100C333A3 /* LGLKit */,
+				7E8A69C61D17DE0100C333A3 /* LGLKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E8A69AC1D17DE0100C333A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8A69C11D17DE0100C333A3 /* LaunchScreen.storyboard in Resources */,
+				7E8A69BE1D17DE0100C333A3 /* Assets.xcassets in Resources */,
+				7E8A69BC1D17DE0100C333A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8A69C51D17DE0100C333A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		483AD328AA94524E9E5C5A28 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGLKit/Pods-LGLKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6365CF049F1B19F306F610C7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGLKit/Pods-LGLKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4595E41106868B2BCBB7E0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E8A69AA1D17DE0100C333A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8A69B91D17DE0100C333A3 /* ViewController.m in Sources */,
+				7E8A69B61D17DE0100C333A3 /* AppDelegate.m in Sources */,
+				7E8A69B31D17DE0100C333A3 /* main.m in Sources */,
+				7E8A69D91D17E48D00C333A3 /* LGLBanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8A69C31D17DE0100C333A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8A69CC1D17DE0100C333A3 /* LGLKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E8A69C91D17DE0100C333A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E8A69AD1D17DE0100C333A3 /* LGLKit */;
+			targetProxy = 7E8A69C81D17DE0100C333A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E8A69BA1D17DE0100C333A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E8A69BB1D17DE0100C333A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E8A69BF1D17DE0100C333A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E8A69C01D17DE0100C333A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E8A69CE1D17DE0100C333A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E8A69CF1D17DE0100C333A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E8A69D11D17DE0100C333A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AED444E4E2CCDC848008886 /* Pods-LGLKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGLKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luoguilin.LGLKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E8A69D21D17DE0100C333A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFA4A79517E9033FE0F4C75 /* Pods-LGLKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGLKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luoguilin.LGLKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E8A69D41D17DE0100C333A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGLKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luoguilin.LGLKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGLKit.app/LGLKit";
+			};
+			name = Debug;
+		};
+		7E8A69D51D17DE0100C333A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGLKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luoguilin.LGLKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGLKit.app/LGLKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E8A69A91D17DE0100C333A3 /* Build configuration list for PBXProject "LGLKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8A69CE1D17DE0100C333A3 /* Debug */,
+				7E8A69CF1D17DE0100C333A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8A69D01D17DE0100C333A3 /* Build configuration list for PBXNativeTarget "LGLKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8A69D11D17DE0100C333A3 /* Debug */,
+				7E8A69D21D17DE0100C333A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8A69D31D17DE0100C333A3 /* Build configuration list for PBXNativeTarget "LGLKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8A69D41D17DE0100C333A3 /* Debug */,
+				7E8A69D51D17DE0100C333A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E8A69A61D17DE0100C333A3 /* Project object */;
+}
